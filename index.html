@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Normalizee CSS -->
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="/styles/styles.css">
+    <!-- iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <!-- JAM icons -->
+  <link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css">
+    <title>Inicio | GRUPO IKON</title>
+</head>
+<body>
+    <header class="main-header">
+        <div class="content-wrapper">
+            <a href="/">
+                <img src="/imagenes/logo.svg" alt="Logo EDsoft">
+            </a>
+            <span id="open-menu-button" class="jam jam-menu"></span>
+             <!-- El menu se escribe con la etiqueta nav -->
+            <nav id="main-menu" class="main-menu">
+                <span id="close-menu-button" class="jam jam-close"></span>
+                <!-- Lista no ordenada se pone ul -->
+                <ul>
+                 <!-- crear elementos con li    -->
+                 <li>
+                    <a href="/">Inicio</a>                 
+                 </li>
+                 <li>
+                    <a href="/quienes-somos.html">¿Quienes somos?</a>
+                 </li>   
+                 <li>
+                    <a href="/proyectos.html">Proyectos</a>
+                 </li>
+                 <li>
+                    <a href="/contacto.html">Contacto</a>
+                 </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+     <!-- Poner el contenido de mi pagina web (con main) -->
+     <main>
+        <!-- Banner principal -->
+        <section class="main-banner section-conainer">
+            <div class="content-wrapper content">
+                <div class="container">
+                    <h1 class="title">Bienvenidos a Edsoft</h1>
+                    <p class="subtitle">Necesitas acesoramiento urgente!!! Nosotros te podemos ayudar en la construcción de tu sitio web</p>
+                    <div>
+                        <a class="button white" href="/contacto.html">Escribenos ya mismo</a>
+                    </div>
+                </div>
+                <div class="container">
+                    <img class="image" src="/imagenes/computer.svg" alt="Computadora Edsoft">
+                </div>
+            </div>
+        </section>
+    <!-- Nuestros servicios -->
+    <section class="services-section section-container">
+            <h2>Nuestros servicios</h2>
+            <div class="content-wrapper">
+                <article class="service-item">
+                    <!-- convertiremos los spam en iconos -->
+                    <span><i class="fa-solid fa-phone"></i></span>
+                    <h3>Servicio 1</h3>
+                    <p>Diseñamos tu presencia en internet con apariencia personal</p>
+                </article>
+                <article class="service-item">
+                    <span><i class="fa-solid fa-computer"></i></span>
+                    <h3>Servicio 2</h3>
+                    <p>Diseñamos tu presencia en internet con apariencia personal</p>
+                </article>
+                <article class="service-item">
+                    <span><i class="fa-regular fa-keyboard"></i></span>
+                    <h3>Servicio 3</h3>
+                    <p>Diseñamos tu presencia en internet con apariencia personal</p>
+                </article>
+            </div>
+    </section>
+    <!-- Sobre nosotros -->
+    <section class="section-container about-section">
+        <div>
+            <h2 class="title">Sobre Nosotros</h2>
+            <p>Este sitio web de nuestra agencia de desarrollo. </p>
+            <a class="button white ghost" href="/proyectos.html">Ver Experiencia</a>
+        </div>
+        <img class="background" src="/imagenes/bg-section.jpg" alt="Alumnos estudiando">
+    </section>
+    
+    <!-- ultimos proyectos -->
+    <section class="section-container last-projects">
+        <h2>Últimos Proyecto</h2>
+        <div class="content-wrapper">
+            <a href="#" class="project-item">
+            <article>
+                <div>
+                    <h4>Titulo Proyecto</h4>
+                    <p>Descripción proyecto</p>
+                </div>
+                <div class="image-container">
+                    <img src="/imagenes/project-1.jpg" alt="proyecto 1">
+                </div>
+            </article>
+            </a>
+            <a href="#" class="project-item">
+                <article>
+                    <div>
+                        <h4>Titulo Proyecto</h4>
+                        <p>Descripción proyecto</p>
+                    </div>
+                    <div class="image-container">
+                        <img src="/imagenes/project-2.jpg" alt="Proyecto 2">
+                    </div>
+                </article>
+                </a>
+                 <a href="#" class="project-item">
+            <article>
+                <div>
+                    <h4>Titulo Proyecto</h4>
+                    <p>Descripción proyecto</p>
+                </div>
+                <div class="image-container">
+                    <img src="/imagenes/project-3.jpg" alt="Proyecto 3">
+                </div>
+            </article>
+            </a>
+            <a href="#" class="project-item">
+                <article>
+                    <div>
+                        <h4>Titulo Proyecto</h4>
+                        <p>Descripción proyecto</p>
+                    </div>
+                    <div class="image-container">
+                        <img src="/imagenes/project-4.jpg" alt="Proyecto 4">
+                    </div>
+                </article>
+                </a>
+        </div>
+        
+    </section>
+
+    <!-- Trabajo con Nosotros -->
+    <section class="work-with-us">
+        <div class="content-wrapper">
+            <h2 class="title">¿Quieres trabajar con nosotros?</h2>
+            <p class="subtitle">Es momento de convertir tu idea en algo real, Puedes contactarnos en nuestras redes sociales <br> o enviando un correo a:</p>
+            <a href="mailto:contacto@edsoft.com" class="button">contacto@edsoft.com</a>
+            <div class="social-networks">
+                <a href="#" target="_blank"><span><i class="fa-brands fa-facebook"></i></span></a>
+                <a href="#" target="_blank"><span><i class="fa-brands fa-twitter"></i></span></a>
+                <a href="#" target="_blank"><span><i class="fa-brands fa-whatsapp"></i></span></a>
+                <a href="#" target="_blank"><span><i class="fa-brands fa-instagram"></i></span></a>
+            </div>
+        </div>
+    </section>
+    </main>
+    <footer class="main-footer">
+        <p>Todos los derechos reservados copyride 2023 | GRUPO IKON </p>
+    </footer>  
+    <script src="/scripts/menu.js"></script>
+</body>
+</html>
